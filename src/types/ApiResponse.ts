@@ -1,5 +1,8 @@
+import { Message } from "@/modal/user";
+
 export interface ApiResponse {
     success: boolean;
     message: string;
-    isAcceptingMessages: boolean;
+    isAcceptingMessages?: boolean;
+    messages?: Array<Message>
 }

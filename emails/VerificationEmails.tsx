@@ -13,8 +13,8 @@ export default function VerificationEmail({username, otp}: VerificationEmailProp
                 <Font
                     fontFamily="Roboto"
                     fallbackFontFamily="Verdana"
-                    webFont={{url:'https"//fonts.gstatic.com/s/roboto/v27/'}}
-                    fontWeight={}
+                    // webFont={{url:'https"//fonts.gstatic.com/s/roboto/v27/'}}
+                    fontWeight={""}
                     fontStyle="normal"
                 />
             </Head>
